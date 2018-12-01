@@ -1,0 +1,13 @@
+/*@media (min-width: 992px) {	
+	#home-banner .item {
+		height: 100vh;
+	}
+}*/
+.center-justify {
+	text-align: center;
+	-webkit-text-align-last: center;
+	-moz-text-align-last: center;
+	-ms-text-align-last: center;
+	-o-text-align-last: center;
+	text-align-last: center;
+}

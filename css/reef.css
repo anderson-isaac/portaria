@@ -1,0 +1,157 @@
+/*@orange: #ff7b19;*/
+/*@gray: #e4e4e4;*/
+a {
+	color: #333;
+}
+p {
+	font-size: 15px;
+}
+a:focus,
+a:hover,
+button:focus {
+	text-decoration: none;
+	outline: none !important;	
+}
+.bk-orange {
+	background-color: #ff7b19;
+	color: #fff;
+}
+.bk-gray {
+	background-color: #636363;
+	color: #fff;
+}
+
+.reef-btn {
+	padding: 10px 15px;
+	border: none;
+	margin-top: 15px;	
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	position: relative;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;	
+}
+
+.img-loader {
+	background-image: url('../images/loader.gif');
+	background-size: 80px 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+.reef-btn:hover,
+.reef-btn:focus {
+	background-color: #e4e4e4;
+	color: #333;
+}
+.buttons {
+	overflow: hidden;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.buttons button {
+	display: inline-block;
+}
+.section-black {
+	background-color: black;
+}
+.title {
+	text-align: left;
+	margin: 40px auto 20px;
+	width: auto;
+	display: inline-block;
+	padding: 0 15px 0 0;
+	font-weight: bold;
+	color: #444 !important;
+	position: relative;	
+}
+.title span {
+	color: #ff7b19;
+}
+.title:after {
+	content: "";
+	display: block;	
+	position: absolute;
+	height: 3px;
+	width: 64px;
+	background-color: #ff7b19;
+	top: 20px;
+	right: -64px;
+}
+.title-invert {
+	color: white;
+}
+.title-invert {
+	color: white;
+}
+.title-invert span {
+	color: white;
+}
+.link-line {	
+	display: block;
+	overflow: hidden;
+	height: 100px;
+	width: 100%;
+	margin-top: 60px;
+	position: relative;
+}
+.link-line:before {
+	content: "";
+	display: block;
+	height: 1px;
+	width: 66%;
+	position: absolute;
+	top: 50%;
+	left: 0;	
+	background-color: #ff7b19;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.link-line img {
+	display: block;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	left: 66%;
+	top: 50%;
+	padding: 15px;	
+	transform: translateY(-50%);
+	border: 3px solid #ff7b19;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;	
+}
+.row {
+	overflow: hidden;
+}
+.link-line a {
+	color: #333;
+	display: block;
+	position: absolute;
+	right: 0;
+	margin-top: -5px;
+	top: 50%;
+	text-align: center;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 33.333%;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.link-line a:hover {	
+	color: #ff7b19;
+}
+
+
+
+@media (min-width: 1200px) {
+	.dmt25 {
+		margin-top: 25px;
+	}
+	.nice-p {
+		font-family: 'Raleway', sans-serif;
+		font-size: 15px;
+	}	
+}
